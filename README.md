@@ -1,10 +1,12 @@
 # scg-frontend
 
-> scg assignment of uttapong 
+** Please make sure that SCG-test-be has setup and running **
+
+> scg assignment of uttapong
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install
 
@@ -18,4 +20,3 @@ $ npm start
 # generate static project
 $ npm run generate
 ```
-

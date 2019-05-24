@@ -7,6 +7,7 @@
           <b-nav-item href="/restaurant">Restaurant Search</b-nav-item>
           <b-nav-item href="/polymial">Polymial</b-nav-item>
           <b-nav-item href="/cv">CV</b-nav-item>
+          <b-nav-item href="/line">LINE Project</b-nav-item>
         </b-navbar-nav>
       </b-navbar>
     </div>
