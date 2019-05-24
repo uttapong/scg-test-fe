@@ -7,6 +7,14 @@
             <h1>Uttapong Ruangrit</h1>
             <h2>Full Stack Developer</h2>
           </div>
+          <div class="yui-u last">
+            <img
+              class="img-circle"
+              src="https://www.uttapong.com/assets/img/portrait_square.jpg"
+              width="100"
+              height="100"
+            >
+          </div>
 
           <div class="yui-u">
             <div class="contact-info">
@@ -44,17 +52,17 @@
               <div class="yui-u">
                 <div class="talent">
                   <h2>Software Development</h2>
-                  <p>Assertively exploit wireless initiatives rather than synergistic core competencies.</p>
+                  <p>12 years in the industry and proficiency in major programing languages</p>
                 </div>
 
                 <div class="talent">
                   <h2>Architecture Design</h2>
-                  <p>Credibly streamline mission-critical value with multifunctional functionalities.</p>
+                  <p>Capture complex requirements and design robust SOA scalable architecture.</p>
                 </div>
 
                 <div class="talent">
                   <h2>UX/UI Design</h2>
-                  <p>Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.</p>
+                  <p>Love research on new UI Trend and willing to conduct UX Research</p>
                 </div>
               </div>
             </div>
@@ -66,21 +74,21 @@
               </div>
               <div class="yui-u">
                 <ul class="talent">
-                  <li>XHTML</li>
-                  <li>CSS</li>
-                  <li class="last">Javascript</li>
+                  <li>PHP/NodeJS/Python</li>
+                  <li>html/css/sass/less</li>
+                  <li class="last">VueJS/React/Angular</li>
                 </ul>
 
                 <ul class="talent">
-                  <li>Jquery</li>
-                  <li>PHP</li>
-                  <li class="last">CVS / Subversion</li>
+                  <li>MySQl/Mongo/Redis</li>
+                  <li>GCP/Firebase</li>
+                  <li class="last">AWS</li>
                 </ul>
 
                 <ul class="talent">
-                  <li>OS X</li>
-                  <li>Windows XP/Vista</li>
-                  <li class="last">Linux</li>
+                  <li>UI Design</li>
+                  <li>GraphQL, Apollo:</li>
+                  <li class="last">Android/iOS (Basic)</li>
                 </ul>
               </div>
             </div>
@@ -269,7 +277,7 @@ select,
 optgroup,
 option {
   font-family: inherit;
-  font-size: inherit;
+  font-size: 80%;
   font-style: inherit;
   font-weight: inherit;
 }
@@ -280,7 +288,7 @@ select {
   *font-size: 100%;
 }
 body {
-  font: 13px/1.231 arial, helvetica, clean, sans-serif;
+  font: 12px/1.231 arial, helvetica, clean, sans-serif;
   *font-size: small;
   *font: x-small;
 }
@@ -289,7 +297,7 @@ input,
 button,
 textarea,
 button {
-  font: 99% arial, helvetica, clean, sans-serif;
+  font: 89% arial, helvetica, clean, sans-serif;
 }
 table {
   font-size: inherit;

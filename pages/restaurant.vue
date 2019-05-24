@@ -60,6 +60,8 @@
 </template>
 <script>
 import axios from "axios";
+import { getData, setData } from "nuxt-storage/local-storage";
+
 export default {
   data: function() {
     return {
@@ -82,9 +84,12 @@ export default {
     searchRestaurant() {
       if (this.location.length <= 0) return;
       this.loading = true;
-      // http://localhost/public/search?location=bangsue
 
-      // http://localhost:8081/localhost/public/search?location=
+      if (getData("location_" + this.location)) {
+        this.markers = getData("location_" + this.location);
+        return;
+      }
+
       axios
         .get("http://localhost/public/search", {
           params: {
@@ -102,6 +107,7 @@ export default {
               }
             };
           });
+          setData("location_" + this.location, this.markers, 5, "d");
           this.center = this.markers[0].position;
           console.log(this.markers);
         })

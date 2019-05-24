@@ -77,6 +77,6 @@ html {
 }
 .content {
   min-height: 500px;
-  padding: 40px 30px;
+  padding: 10px 30px 20px 30px;
 }
 </style>

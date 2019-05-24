@@ -20,6 +20,8 @@
 </template>
 <script>
 import axios from "axios";
+import { getData, setData } from "nuxt-storage/local-storage";
+
 export default {
   data: function() {
     return {
@@ -36,7 +38,10 @@ export default {
     searchRestaurant() {
       this.loading = true;
       // http://localhost/public/search?location=bangsue
-
+      if (getData("count_" + this.num)) {
+        this.searchResult = getData("count_" + this.num);
+        return;
+      }
       // http://localhost:8081/localhost/public/search?location=
       axios
         .get("http://localhost/public/polynomial", {
@@ -46,6 +51,7 @@ export default {
         })
         .then(response => {
           this.searchResult = response.data;
+          setData("count_" + this.num, response.data, 5, "d");
           // console.log(response.data);
         })
         .then(() => {
