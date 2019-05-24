@@ -32,7 +32,8 @@
             >
               <b-card-text>
                 <img class="icon" :src="item.icon">
-                Rating {{item.rating}}
+
+                <template v-if="item.rating">Rating {{item.rating}}</template>
               </b-card-text>
             </b-card>
           </b-col>
